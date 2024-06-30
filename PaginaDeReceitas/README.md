@@ -1,2 +1,4 @@
 # RocketseatProjects
- Here you can find my Rocketseat school projects
+Projeto Simples do curso full Stack RocketSeat
+Constitui-se de uma página de receitas
+
