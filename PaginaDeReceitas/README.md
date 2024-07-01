@@ -1,11 +1,10 @@
 # RocketseatProjects
-<<<<<<< HEAD
-Projeto Simples do curso full Stack RocketSeat.
-=======
 
 Projeto Simples do curso full Stack RocketSeat.
 
->>>>>>> 371a37a8fbbcf8b1355519bce6ea54872b32c2eb
+
+Projeto Simples do curso full Stack RocketSeat.
+
 Constitui-se de uma página de receitas
 
 
