@@ -1,0 +1,137 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: "Open Sans", sans-serif;
+}
+body{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #323238;
+}
+#mainBox{
+    background-color:rgb(255, 234, 212);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:80%;
+}
+#busan-Main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    gap: 2rem;
+    
+}
+
+.box-Main-Busan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px rgba(128, 128, 128, 0.397) solid;
+    width:100%;
+}
+.box-Main-Busan img{
+    width:100%;
+    border-radius: 1.5rem;
+    height: 600px;
+}
+
+.boxSize{
+    width: 100%;
+  
+}
+#text-Busan{
+    width: 85%;
+    font-style: italic;
+    font-size:1rem ;
+    margin-top: 1rem;
+   
+}
+.intro-Main{
+    width: 100%;
+    margin-top: 1rem;
+}
+.redtext{
+    font-size:16px;
+    font-weight: bold;
+    color: #E1624F;
+    text-transform:uppercase; 
+   
+
+}
+.intro-Main h1{
+    font-size: 2rem;
+}
+.OtherContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+/* DEMAIS SECTIONS */
+#yonggungsa, #beoMeo ,#yongdusan{
+    display:flex;
+    flex-direction:column;
+    width:80% ;
+    justify-content: center;
+    gap: 1rem;
+}
+.places-Images{
+    margin-top: 60px;
+    border-radius: 1.5rem;
+    width: 100%;
+}
+.initial-List{
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    list-style: none;
+ 
+}
+.content-List{
+    margin-left:1.3rem;
+    font-weight: bold;
+    font-size: 1rem;
+    color:#0C51A7;
+    text-transform:capitalize;
+}
+.content-List2{
+    
+    margin-left:1.3rem;
+    font-weight: bold;
+    font-size: 1rem;
+    color:#591B98;
+    text-transform:capitalize;
+}
+.content-List3{
+    margin-left:1.3rem;
+    font-weight: bold;
+    font-size: 1rem;
+    color:#E95E10;
+    text-transform:capitalize;
+    
+}
+.content-List4{
+    margin-left:1.3rem;
+    font-weight: bold;
+    font-size: 1rem;
+    color:#E5245E;
+    text-transform:capitalize;
+    
+}
+/*FOOTER */
+footer{
+    margin-top: 2rem;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-weight: 500;
+    padding: 2rem;
+    line-height: 150%;
+    font-size: 1rem;
+}
