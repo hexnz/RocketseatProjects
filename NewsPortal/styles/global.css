@@ -3,9 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-.containerTeste{
-    background-color: red;
-}
+
 :root{
     /* Cores iniciais */
     --red-color:#E3646E;
@@ -40,6 +38,58 @@
 
 }
 body{
-    font:var(--text-md-Maven);
-    
+    font:var(--tittle-sm-Asap);
+    color: var(--basegray600);
+    width:100vw;
 }
+  /* Classes de utilidades*/
+  .containerStandart{
+    width: 100vw;
+  }
+  .imgIntro{
+    width: 100%;
+    height: 45rem;
+    position: absolute;
+    z-index: -1;
+  }
+    /* Classes de Cores e Fontes*/
+  .whiteSubtittle{
+    color:var(--basegray500);
+    font: var(--tittle-regular-Inconsolata);
+  }
+  .redSubtittle{
+    color:var(--red-color);
+    font: var(--tittle-regular-Inconsolata);
+  }
+  .purppleSubtittle{
+    color:var(--purple-color);
+    font: var(--tittle-regular-Inconsolata);
+  }
+  .tittleH1{
+    font:var(--tittle-lg-Asap);
+  }
+  .textIntro{
+    color: var(--basegray400);
+    font: var(--text-sm-Maven);
+  }
+  /* Classes de Alinhamento*/
+  .alignLines{
+    /* alinhamento de linhas */
+    display: flex;
+    align-items:center;
+    justify-content: center;
+  }
+  .alignColums{
+    /* alinhamento na colunas*/
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+  }
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    column-gap: 2rem;
+    row-gap: 4rem;
+  
+  }

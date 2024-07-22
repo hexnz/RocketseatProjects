@@ -1,0 +1,64 @@
+
+.profile{
+    width: 10%;
+    height: 12%;
+    border-radius: 5rem;  
+}
+.containerBackground{
+    width: 100vw;
+    height: 45rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+.contCenter{
+  width: 1040px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+#textApresentation{
+    width:42rem ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:0.5rem;
+}
+#textApresentation .margin{
+    margin-left:0.6rem;
+    margin-top:0.6rem;
+}
+.iconsFlex{
+    display: flex;
+    gap: 1rem;
+    list-style:none;
+}
+.containerIcons{
+    display: flex;
+    width:9rem;
+    background-color: var(--basegray300);
+    border-radius: 2rem;
+    padding:0.5rem;
+    
+}
+.containerIcons a{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    gap:0.5rem;
+    font: var(--text-md-Maven);
+    color: var(--basegray500);
+}
+.IconFooterHead{
+    position: relative;
+    top: 3.85rem;
+}
+.IconFooterHead::after{
+    background-color: red;
+   transition: 1000ms;
+}
+
+
