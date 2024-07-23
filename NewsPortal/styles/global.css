@@ -68,8 +68,18 @@ body{
   .tittleH1{
     font:var(--tittle-lg-Asap);
   }
+  .subtittleMdAsap{
+    font:var(--tittle-md-Asap);
+    color:var(--basegray600);
+
+  }
+
   .textIntro{
     color: var(--basegray400);
+    font: var(--text-sm-Maven);
+  }
+  .textIntro500{
+    color: var(--basegray500);
     font: var(--text-sm-Maven);
   }
   /* Classes de Alinhamento*/
@@ -88,8 +98,8 @@ body{
   }
   .grid{
     display: grid;
-    grid-template-columns: repeat(2,2fr);
-    column-gap: 2rem;
+    grid-template-columns: repeat(3,20%);
     row-gap: 4rem;
-  
+   
+
   }

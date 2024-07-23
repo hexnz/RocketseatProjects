@@ -1,8 +1,26 @@
 main{
     background-color: var(--basegray200);
     width: 100%;
+    gap:3.5rem
+    
    
 }
-#sectionMain div{
+#sectionMain {
+    position: relative;
+   column-gap:6.4rem;
+   row-gap: 1rem;
+   left: 5.2rem;
+    
+}
+.cardGrid{
+    background-color: var(--basegray300);
+    width:20rem ;
+    height: 17.5rem;
     border: 0.1rem solid rgb(231, 169, 35);
+    border-radius: 1rem;
+    padding: 1rem;
+}
+#marginP{
+    position: relative;
+    bottom: 0.5rem;
 }
