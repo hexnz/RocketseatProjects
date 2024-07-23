@@ -54,7 +54,7 @@
 }
 .IconFooterHead{
     position: relative;
-    top: 3.85rem;
+    top: 5rem;
 }
 .IconFooterHead::after{
     background-color: red;
