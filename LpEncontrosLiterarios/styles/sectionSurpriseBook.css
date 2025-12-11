@@ -1,0 +1,77 @@
+.surpriseBook{
+    width: 100%;
+    height: 50rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+.surpriseBook #containerTexts{
+    min-height:10 rem;
+    
+}
+#imgsTexts{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 25rem;
+    align-items: center;
+    gap: 2rem;
+    position: relative;
+    top:18rem;
+ 
+}
+#containerBook {
+height: 5rem;
+}
+#imgsTexts #containerIcons{
+    display: flex;
+    width: 100%;
+    height: 10rem;
+    position: relative;
+    top: 8rem;
+    justify-content: space-between;
+}
+#book, #heart,#ball{
+    display: flex;
+   width: 80px;
+    opacity: 0;
+    transition:0.3s linear;
+}
+#ball{
+    transform:rotate(-20deg);
+}
+#book:hover,#heart:hover,#ball:hover {
+transform: rotate(20deg);
+scale:1.3;
+}
+#imgsTexts{
+
+#containerBook>#book {
+  animation: showImages 0.5s forwards linear;
+
+}
+#containerIcons>#heart{
+    animation: showImages 0.5s forwards linear;
+    animation-delay: 1s;
+   
+}
+#containerIcons>#ball{
+    animation: showImages 0.5s forwards linear;
+    animation-delay: 1.5s;
+   
+}
+}
+
+@keyframes showImages {
+    0%{
+        opacity: 0;
+        width: 1px;
+        height: 1px;
+    }
+    100%{
+         opacity: 1;
+        
+    }
+}

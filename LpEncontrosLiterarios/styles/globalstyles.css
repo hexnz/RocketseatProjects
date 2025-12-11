@@ -1,0 +1,161 @@
+/* 
+
+/*Cleaning the standart CSS setup  */
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: var(--fontFamilly);
+    color: var(--textTittle);
+}
+
+body {
+    background-color: var(--shapeBackGround);
+}
+
+/* Here i define the setup of variables used in the project*/
+
+:root {
+
+    /*-----------COLORS OF VARIABLES------------------*/
+    --pinkLight: #C59DD2;
+    --pinkBase: #9547A5;
+    --pinkDark: #7D298A;
+    --pinkLow: #3F0F41;
+
+    --blueLight: #73B6D2;
+    --blueBase: #358BB9;
+    --blueMid: #2374A4;
+    --blueDark: #144A72;
+    --blueLow: #08233C;
+
+    --shapeStroke: #002347;
+    --shapeHover: #001933;
+    --shapeBase: #000F1F;
+    --shapeBackGround: #00050A;
+
+
+    /*-----------------Text Colors-------------------*/
+
+    --textTittle: #F8FBFB;
+    --textBody: #E2E7E9; 
+    --textLabel: #BAC6C9; 
+
+
+    /*-----------------Text Styles/Size---------------*/
+
+    --fontFamilly: "Raleway", sans-serif;
+    --titleLg: bold 48px/normal var(--fontFamilly);
+    --titleMd: bold 40px/normal var(--fontFamilly);
+    --titleSmb: bold 32px/normal var(--fontFamilly);
+    --titleXs: bold 16px var(--fontFamilly);
+
+    --subTitle: 32px/200% var(--fontFamilly);
+
+    --bodyLg: normal 20px/140% var(--fontFamilly);
+    --bodyMd: bold 16px/140% var(--fontFamilly);
+    --bodySm: bold 14px/140% var(--fontFamilly);
+    --bodyXs: bold 12px/140% var(--fontFamilly);
+    --button: bold 14px/normal var(--fontFamilly);
+    --link: medium 14px var(--fontFamilly);
+    --tag: 10px bold uppercase var(--fontFamilly);
+
+}
+
+.titleLgClass {
+    font: var(--titleLg);
+    
+}
+.textBodylg{
+    font: var(--bodyLg);
+}
+
+.buttonPinkDark {
+    background-color: var(--pinkDark);
+}
+.subtitle{
+    font: var(--subTitle);
+}
+.titleSmb{
+    font: var(--titleSmb);
+   
+}
+.blueLight{
+    color:var(--blueLight);
+}
+.textBodyColor{
+    color:var(--textBody)
+}
+/*Button with effect */
+
+.buttonClassPD {
+
+    display: flex;
+    font: var(--button);
+    width: 89px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+
+    #effectButton {
+        width: 5px;
+        z-index: 2;
+        position: absolute;
+        background-color: white;
+        visibility: hidden;
+    }
+
+    a {
+        text-decoration: none;
+        position: relative;
+        z-index: 3;
+    }
+
+    &.buttonClassPD:hover {
+
+        #effectButton {
+            width: 0.5rem;
+            height: 0.5rem;
+            background-color: #F8FBFB;
+            opacity: 0.12;
+            animation: ball 1s forwards;
+            object-fit: cover;
+            visibility: visible;
+        }
+    }
+
+}
+
+
+
+spam {
+    display: flex;
+    width: 1rem;
+    border-radius: 10rem;
+    z-index: -1;
+}
+
+@keyframes ball {
+
+    0% {
+        border-radius: 100%;
+        height: 30%;
+    }
+
+    100% {
+        width: 130%;
+        height: 200%;
+        border-radius: 100%;
+
+
+
+
+    }
+
+}

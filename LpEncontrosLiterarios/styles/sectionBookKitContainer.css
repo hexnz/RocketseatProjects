@@ -1,0 +1,20 @@
+#bookKitContainer{
+    width: 100%;
+    height:60rem;
+    margin-top: 18rem;
+}
+#bookKitTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#starIcons{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    z-index: -1;
+    position: relative;
+    bottom: 3.5rem;
+}
